@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "node server/index.js",
+    "start": "node server/index.js",
     "dev:all": "concurrently \"vite\" \"node server/index.js\"",
     "generate:ppt": "node scripts/generate_ppt.js",
     "build": "vite build",
@@ -39,4 +40,5 @@
     "tailwindcss": "^4.3.3",
     "vite": "^5.4.1"
   }
+   
 }
